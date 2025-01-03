@@ -17599,6 +17599,9 @@ RoseTree XML to Schema: $Id: VocabXMLtoXSD.xsl,v 1.8 2007/03/20 02:48:50 wbeeler
 			<xs:enumeration value="CON"/>
 			<xs:enumeration value="ECON"/>
 			<xs:enumeration value="NOK"/>
+                        <xs:enumeration value="GUARD"/>
+                        <xs:enumeration value="EMP"/>
+                            
 		</xs:restriction>
 	</xs:simpleType>
 	<xs:simpleType name="RoleClassCoveredParty">
