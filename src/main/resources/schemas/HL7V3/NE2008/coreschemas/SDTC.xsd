@@ -63,7 +63,8 @@
 
   <xs:element name="multipleBirthInd" type="hl7:BL"/>
   <xs:element name="multipleBirthOrderNumber" type="hl7:INT"/>
-  
-    
+
+  <!-- this is needed for USCDIv3, in the POCD_MT000040.Performer2 type of the POCD_MT000040.xsl file -->
+  <xs:element name="functionCode" type="hl7:CE"/>
 
 </xs:schema>

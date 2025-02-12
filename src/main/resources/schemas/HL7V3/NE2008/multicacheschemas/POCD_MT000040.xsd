@@ -1001,6 +1001,8 @@ StaticMifToXsd.xsl version 2.0</xs:documentation>
 			<xs:element name="realmCode" type="CS" minOccurs="0" maxOccurs="unbounded"/>
 			<xs:element name="typeId" type="POCD_MT000040.InfrastructureRoot.typeId" minOccurs="0"/>
 			<xs:element name="templateId" type="II" minOccurs="0" maxOccurs="unbounded"/>
+			<!-- add sdtc:functionCode. needed by USCDIv3 -->
+			<xs:element ref="sdtc:functionCode" type="CE" minOccurs="0"/>
 			<xs:element name="time" type="IVL_TS_explicit" minOccurs="0"/>
 			<xs:element name="modeCode" type="CE" minOccurs="0"/>
 			<xs:element name="assignedEntity" type="POCD_MT000040.AssignedEntity"/>
